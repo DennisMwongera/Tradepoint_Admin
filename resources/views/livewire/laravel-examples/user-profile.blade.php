@@ -1,5 +1,5 @@
 <div>
-    <div class="container-fluid">
+    <div class="container-fluid col-9">
         <div class="page-header min-height-300 border-radius-xl mt-4"
             style="background-image: url('../assets/img/curved-images/curved0.jpg'); background-position-y: 50%;">
             <span class="mask bg-gradient-primary opacity-6"></span>
