@@ -76,14 +76,14 @@
                 </a>
             </li>
             <li class="nav-item pb-2">
-                <a class="nav-link {{ Route::currentRouteName() == 'user-management' ? 'active' : '' }}"
-                    href="{{ route('user-management') }}">
+                <a class="nav-link {{ Route::currentRouteName() == 'users' ? 'active' : '' }}"
+                    href="{{ route('users') }}">
                     <div
                         class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i style="font-size: 1rem;" class="fas fa-lg fa-list-ul ps-2 pe-2 text-center
-                        {{ in_array(request()->route()->getName(),['user-management']) ? 'text-white' : 'text-dark' }}"></i>
+                        {{ in_array(request()->route()->getName(),['users']) ? 'text-white' : 'text-dark' }}"></i>
                     </div>
-                    <span class="nav-link-text ms-1">User Management</span>
+                    <span class="nav-link-text ms-1">Users</span>
                 </a>
             </li>
 
@@ -91,8 +91,8 @@
 {{--                <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Example pages</h6>--}}
 {{--            </li>--}}
             <li class="nav-item">
-                <a class="nav-link {{ Route::currentRouteName() == 'tables' ? 'active' : '' }}"
-                    href="{{ route('tables') }}">
+                <a class="nav-link {{ Route::currentRouteName() == 'Tables' ? 'active' : '' }}"
+                    href="{{ route('Tables') }}">
                     <div
                         class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                         <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1"
